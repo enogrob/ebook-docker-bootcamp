@@ -16,10 +16,10 @@ Learn everything you need to about the subject of this `eBook` project.
 ## Topics
 ```
 1: INSTALLING DOCKER LOCALLY
-[ ] Docker for Mac and Windows
-[ ] Docker on Ubuntu 16.04
-[ ] Testing your installation
-[ ] Summary
+[x] Docker for Mac and Windows
+[x] Docker on Ubuntu 16.04
+[x] Testing your installation
+[x] Summary
 2: LAUNCHING APPLICATIONS USING DOCKER
 [ ] Docker terminology
 [ ] Controlling Docker containers
