@@ -1,3 +1,5 @@
+
+[![GitPitch](https://gitpitch.com/assets/badge.svg)](https://gitpitch.com/enogrob/ebook-docker-bootcamp/master?grs=github&t=moon)
 ```
 Roberto Nogueira  
 BSd EE, MSd CE
@@ -5,7 +7,7 @@ Solution Integrator Experienced - Certified by Ericsson
 ```
 # eBook Docker Bootcamp
 
-![ebook image](images/ebook.png)
+![ebook image](assets/ebook.png)
 
 **About**
 
