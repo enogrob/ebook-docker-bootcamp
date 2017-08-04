@@ -1,4 +1,3 @@
-
 [![GitPitch](https://gitpitch.com/assets/badge.svg)](https://gitpitch.com/enogrob/ebook-docker-bootcamp/master?grs=github&t=moon)
 ```
 Roberto Nogueira  
