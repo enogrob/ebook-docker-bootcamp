@@ -23,7 +23,7 @@ Learn everything you need to about the subject of this `eBook` project.
 [x] Summary
 2: LAUNCHING APPLICATIONS USING DOCKER
 [x] Docker terminology
-[ ] Controlling Docker containers
+[x] Controlling Docker containers
 [ ] Running a WordPress container
 [ ] Docker Compose
 [ ] Docker Build
