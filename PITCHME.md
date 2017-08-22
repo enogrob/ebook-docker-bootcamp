@@ -56,18 +56,20 @@ ebcd9d4fca80  3 months ago  /bin/sh -c #(nop)  CMD ["/bin/bash"]
 
 The Docker images have a parent/child relationship and the bottom-most image is called the `base image`.
 The base image is the special image that doesn't have any parent.
+
 ![](assets/screenshot_8806.png)
 
 +++
 
 Each addition that is made to the original base image is stored in a separate layer.
+
 ![](assets/screenshot_8807.png)
 
 ---
 
 #### Docker Registry
 
-A `Docker Registry` is a place where Docker images can be stored in order to be publicly or privately found, accessed, and used by worldwide software developers for quickly crafting fresh and composite applications without any risks.
+A `Docker Registry` is a place where Docker images can be stored in order to be publicly or privately found, accessed, and used by worldwide software developers.
 
 +++
 
@@ -75,7 +77,7 @@ Using the `docker image push` subcommand, you can dispatch your Docker image to 
 
 +++
 
-A Docker Registry could be hosted by a third party as a public or private registry, such as one of the following registries:
+A Docker Registry could be hosted by a third party as a public or private registry, such as:
 * [Docker Hub](https://hub.docker.com/)
 * [Quay](https://quay.io/)
 * [Google Container Registry](https://cloud.google.com/container- registry/)
@@ -85,13 +87,13 @@ A Docker Registry could be hosted by a third party as a public or private regist
 
 #### Docker Hub
 
-The Docker Hub is the official repository that contains all the painstakingly curated images that are created and deposited by the worldwide Docker development community.
+The Docker Hub is the official repository that contains all the curated images that are created by the worldwide Docker community.
 
-It is publicly available at a default location, `index.docker.io`.
+It is publicly available at, `index.docker.io`.
 
 +++
 
-You can download any third-party image by using the docker image pull subcommand, as shown here:
+You can download any third-party image by using the `docker image pull` subcommand, as shown here:
 ```shell
 $ docker image pull russmckendrick/cluster
 ```
@@ -100,7 +102,7 @@ $ docker image pull russmckendrick/cluster
 
 A manual repository path is similar to a URL without a protocol specifier, such as `https://`, `http://` and `ftp://`.
 
-Following is an example of pulling an image from a third-party repository hub:
+Following is an example of pulling an image from a third-party repository:
 ```shell
 docker image pull registry.domain.com/myapp
 ```
