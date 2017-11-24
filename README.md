@@ -24,7 +24,7 @@ Learn everything you need to about the subject of this `eBook` project.
 2: LAUNCHING APPLICATIONS USING DOCKER
 [x] Docker terminology
 [x] Controlling Docker containers
-[ ] Running a WordPress container
+[x] Running a WordPress container
 [ ] Docker Compose
 [ ] Docker Build
 [ ] A quick overview of the Dockerfile's syntax
