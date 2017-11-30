@@ -1,6 +1,6 @@
 [![GitPitch](https://gitpitch.com/assets/badge.svg)](https://gitpitch.com/enogrob/ebook-docker-bootcamp/master?grs=github&t=moon)
 ```
-Roberto Nogueira  
+Roberto Nogueira
 BSd EE, MSd CE
 Solution Integrator Experienced - Certified by Ericsson
 ```
@@ -25,13 +25,13 @@ Learn everything you need to about the subject of this `eBook` project.
 [x] Docker terminology
 [x] Controlling Docker containers
 [x] Running a WordPress container
-[ ] Docker Compose
-[ ] Docker Build
-[ ] A quick overview of the Dockerfile's syntax
-[ ] The Dockerfile build instructions
-[ ] Customizing existing images
-[ ] Sharing your images
-[ ] Summary
+[x] Docker Compose
+[x] Docker Build
+[x] A quick overview of the Dockerfile's syntax
+[x] The Dockerfile build instructions
+[x] Customizing existing images
+[x] Sharing your images
+[x] Summary
 3: DOCKER IN THE CLOUD
 [ ] Docker Machine
 [ ] The Digital Ocean driver

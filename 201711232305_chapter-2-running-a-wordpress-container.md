@@ -6,10 +6,10 @@ REPOSITORY          TAG                 IMAGE ID            CREATED             
 mysql               latest              5709795eeffa        2 weeks ago         408MB
 
 $ docker container run -d \
->     --name mysql \
->     -e MYSQL_ROOT_PASSWORD=wordpress \
->     -e MYSQL_DATABASE=wordpress \
->     mysql
+     --name mysql \
+     -e MYSQL_ROOT_PASSWORD=wordpress \
+     -e MYSQL_DATABASE=wordpress \
+     mysql
 12e7258d92bc8499cfd3855b29a4938e299d890c2938e1d9d9d0e87d50455700
 
 $ docker container ls
@@ -28,11 +28,11 @@ REPOSITORY          TAG                 IMAGE ID            CREATED             
 wordpress           latest              467f492bc127        3 days ago          413MB
 
 $ docker container run -d \
->     --name wordpress \
-> --link mysql:mysql\
->     -p 8080:80 \
->     -e WORDPRESS_DB_PASSWORD=wordpress \
->     wordpress
+     --name wordpress \
+     --link mysql:mysql \
+     -p 8080:80 \
+     -e WORDPRESS_DB_PASSWORD=wordpress \
+     wordpress
 60fc59bdcd566452eb35b8471162a2079939066b066f0e4305c8b1051c809be5
 
 $ docker container ls
