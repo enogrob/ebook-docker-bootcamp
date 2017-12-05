@@ -1,0 +1,22 @@
+version: "3"
+
+services:
+   mysql:
+     image: postgres
+     volumes:
+       - db_data:/var/lib/mysql
+     restart: always
+     environment:
+       POSTGRES_PASSWORD=mysecretpassword
+       POSTGRES_DATABASE=Development_database
+   rails:
+     depends_on:
+       - postgres
+     build: ./
+     ports:
+       - "3000:3000"
+     restart: always
+     environment:
+       
+volumes:
+    db_data:
