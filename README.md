@@ -34,7 +34,7 @@ Learn everything you need to about the subject of this `eBook` project.
 [x] Summary
 3: DOCKER IN THE CLOUD
 [x] Docker Machine
-[ ] The Digital Ocean driver
+[x] The Digital Ocean driver
 [ ] The Amazon Web Services driver
 [ ] The Microsoft Azure driver
 [ ] References
