@@ -33,7 +33,7 @@ Learn everything you need to about the subject of this `eBook` project.
 [x] Sharing your images
 [x] Summary
 3: DOCKER IN THE CLOUD
-[x] Docker Machine
+[ ] Docker Machine
 [ ] The Digital Ocean driver
 [ ] The Amazon Web Services driver
 [ ] The Microsoft Azure driver
