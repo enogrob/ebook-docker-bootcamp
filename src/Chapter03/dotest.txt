@@ -1,0 +1,9 @@
+docker-machine create \
+--driver digitalocean \
+--digitalocean-access-token 6ab6ce9ba045d8b877c2d76383f62c3feac62cf8db3507e7eaa2b7ab1c404890 dotest
+
+docker-machine create \
+--driver digitalocean \
+--digitalocean-access-token 6ab6ce9ba045d8b877c2d76383f62c3feac62cf8db3507e7eaa2b7ab1c404890 douktest
+
+curl -X GET -H "Content-Type: application/json" -H "Authorization: Bearer 6ab6ce9ba045d8b877c2d76383f62c3feac62cf8db3507e7eaa2b7ab1c404890" "https://api.digitalocean.com/v2/regions" | python -mjson.tool
